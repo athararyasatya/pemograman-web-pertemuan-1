@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="topnavbar">
+        <a href="#home">Home</a>
+        <a class="active" href="profile.html">Profile</a>
+    </div>
+    <style>
+        
+        .topnavbar{
+            background-color:#363062;
+            color: aliceblue;
+            height: 4vh;
+            padding: 25px 20px;
+            
+           
+            transition: all ease-in 1s;
+        }
+
+        .topnavbar a{
+            
+            color: #f2f2f2;
+            text-decoration: none;
+            text-align: center;
+            font-size: 25px;
+            
+            padding: 15px 35px; 
+          
+            transition: all ease-in 1s;
+           
+        }
+
+        .topnavbar a:hover{
+            color: #0b0b0b89;
+            background-color: #f2f2f2;
+            width: 100px; /* Lebar tombol saat dihover */
+        height: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div  class="bodyfirst">
+        <h2>Walcome :]</h2>
+        <p>This is the practice of meeting speakers 1</p>
+    </div>
+
+    <style>
+            .bodyfirst{
+                min-height: 47vh;
+                overflow: hidden;
+                padding-top: 200px;
+                background-size: cover;
+            }
+
+            .bodyfirst::before {
+             content: "";
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             background-image: url('image1.png');
+             background-size: cover;
+             filter: blur(5px); 
+             z-index: -1;
+            }
+
+            .bodyfirst h2,p{
+                text-align: center;
+                font-size: 50px;
+                color: #f2f2f2;
+            }
+            
+
+     
+
+
+    </style>
+   
+</body>
+</html>
